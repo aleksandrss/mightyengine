@@ -1,0 +1,1012 @@
+{
+	"1": {
+		"items": {
+			"1": {
+				"id": 1,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 1,
+					"name": "null",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "null.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 64,
+					"height": 64
+				}
+			},
+			"2": {
+				"id": 2,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 2,
+					"name": "null_iso",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "null_iso.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"plugin": "Resource"
+					},
+					"width": 90,
+					"height": 45
+				}
+			},
+			"3": {
+				"id": 3,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 3,
+					"name": "error",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "62.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 64,
+					"height": 64
+				}
+			},
+			"4": {
+				"id": 4,
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"id": 4,
+					"name": "null",
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"texture": "1",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"available": [],
+						"stages": []
+					},
+					"body": {
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"layerIndex": 0,
+						"fillType": "__enum__.Import.Terrain.FillType.DEFAULT",
+						"isModifier": 0,
+						"isUpdatePreview": 0
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					}
+				}
+			},
+			"5": {
+				"id": 5,
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"id": 5,
+					"name": "error",
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"texture": 3,
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"stages": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					}
+				}
+			},
+			"6": {
+				"id": 6,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"id": 6,
+					"name": "null",
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"brush": 4,
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": false,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					}
+				}
+			},
+			"7": {
+				"id": 7,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"id": 7,
+					"name": "error",
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"brush": 5,
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": false,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					}
+				}
+			},
+			"48": {
+				"id": 48,
+				"branch": 1,
+				"type": "Addon",
+				"data": {
+					"id": 48,
+					"name": "scene",
+					"disabled": false,
+					"editor": {
+						"group": "snake",
+						"type": "Addon",
+						"origin": "guntisSnake17",
+						"branch": 1,
+						"color": "#FFFFFF",
+						"sort": 0,
+						"plugin": "Addon"
+					}
+				}
+			},
+			"49": {
+				"id": 49,
+				"branch": 1,
+				"type": "Plugin",
+				"data": {
+					"id": 49,
+					"name": "Terrain",
+					"disabled": false,
+					"useInEditor": true,
+					"visible": true,
+					"type": "__enum__.Import.Terrain.Type.TOP_DOWN",
+					"tileWidth": 112,
+					"tileHeight": 112,
+					"tileDepth": 1,
+					"offlineMode": false,
+					"grid": {
+						"use": true,
+						"width": 28,
+						"height": 28,
+						"showDebug": false
+					},
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1,
+						"color": "#FFFFFF",
+						"sort": 0,
+						"plugin": "Plugin"
+					}
+				}
+			},
+			"50": {
+				"data": {
+					"id": 50,
+					"name": "Camera",
+					"disabled": false,
+					"useInEditor": true,
+					"position": {
+						"isDrag": true,
+						"ignoreBorder": false,
+						"type": "__enum__.Import.Camera.Position.DEFAULT"
+					},
+					"zoom": {
+						"active": true,
+						"useAutoZoom": false,
+						"min": 0.6,
+						"max": 1.4,
+						"default": 1,
+						"step": 0.1
+					},
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 50,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"51": {
+				"data": {
+					"id": 51,
+					"name": "Input",
+					"disabled": false,
+					"useInEditor": true,
+					"stickyKeys": true,
+					"preventDefault": true,
+					"isDebug": false,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 51,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"52": {
+				"id": 52,
+				"branch": 1,
+				"type": "Plugin",
+				"data": {
+					"id": 52,
+					"name": "Cursor",
+					"disabled": false,
+					"useInEditor": true,
+					"stepSizeX": 28,
+					"stepSizeY": 28,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1,
+						"color": "#FFFFFF",
+						"sort": 0,
+						"plugin": "Plugin"
+					}
+				}
+			},
+			"53": {
+				"data": {
+					"id": 53,
+					"name": "Material",
+					"disabled": false,
+					"useInEditor": true,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 53,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"54": {
+				"data": {
+					"id": 54,
+					"name": "Entity",
+					"disabled": false,
+					"useInEditor": true,
+					"picking": {
+						"pixelPerfect": true,
+						"pickableFlag": true
+					},
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					},
+					"depthSorting": "__enum__.Import.Entity.DepthSorting.WEIGHTED"
+				},
+				"id": 54,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"55": {
+				"data": {
+					"id": 55,
+					"name": "Brush",
+					"disabled": false,
+					"useInEditor": true,
+					"isTemplate": 0,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 55,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"56": {
+				"data": {
+					"id": 56,
+					"name": "Plugin",
+					"disabled": false,
+					"useInEditor": true,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 56,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"57": {
+				"data": {
+					"id": 57,
+					"name": "Resource",
+					"disabled": false,
+					"useInEditor": true,
+					"path": "assets/deploy",
+					"sound": {
+						"volume": 1
+					},
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 57,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"58": {
+				"data": {
+					"id": 58,
+					"name": "Editor",
+					"disabled": false,
+					"useInEditor": true,
+					"useEditor": false,
+					"disallowDuplicates": true,
+					"useAvailable": false,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 58,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"59": {
+				"data": {
+					"id": 59,
+					"name": "Patch",
+					"disabled": false,
+					"useInEditor": true,
+					"optimalSizeX": 512,
+					"optimalSizeY": 512,
+					"isDebug": false,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 59,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"60": {
+				"data": {
+					"id": 60,
+					"name": "Template",
+					"disabled": false,
+					"useInEditor": true,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 60,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"61": {
+				"data": {
+					"id": 61,
+					"name": "Component",
+					"disabled": false,
+					"useInEditor": true,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 61,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"62": {
+				"data": {
+					"id": 62,
+					"name": "Scene",
+					"disabled": false,
+					"useInEditor": true,
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 62,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"63": {
+				"id": 63,
+				"branch": 1,
+				"type": "Plugin",
+				"data": {
+					"id": 63,
+					"name": "Engine",
+					"disabled": false,
+					"useInEditor": true,
+					"tUpdateDelta": 33.3,
+					"tSleep": 16.6,
+					"isDebug": false,
+					"defaultLevel": "78",
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1,
+						"color": "#FFFFFF",
+						"sort": 0,
+						"plugin": "Plugin"
+					}
+				}
+			},
+			"64": {
+				"data": {
+					"id": 64,
+					"name": "Map",
+					"disabled": false,
+					"useInEditor": true,
+					"gridX": 32,
+					"gridY": 32,
+					"bgEntity": "6",
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 64,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"65": {
+				"data": {
+					"id": 65,
+					"name": "i18n",
+					"disabled": false,
+					"useInEditor": true,
+					"defaultLang": "__enum__.Import.i18n.Lang.EN",
+					"replaceStart": "{",
+					"replaceEnd": "}",
+					"editor": {
+						"group": "Core",
+						"type": "Plugin",
+						"origin": "Core",
+						"branch": 1
+					}
+				},
+				"id": 65,
+				"type": "Plugin",
+				"branch": 1
+			},
+			"66": {
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"id": 66,
+					"name": "bg",
+					"image": "47.png",
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 112,
+					"height": 112
+				},
+				"id": 66
+			},
+			"67": {
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"name": "bg",
+					"texture": 66,
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0
+					},
+					"footer": {
+						"stages": [],
+						"available": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					},
+					"id": 67
+				},
+				"id": 67
+			},
+			"68": {
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"name": "bg",
+					"brush": 67,
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"gridSizeX": 1,
+						"gridSizeY": 1,
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": true
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					},
+					"id": 68
+				},
+				"id": 68
+			},
+			"69": {
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"id": 69,
+					"name": "snake",
+					"image": "48.png",
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 28,
+					"height": 28
+				},
+				"id": 69
+			},
+			"70": {
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"name": "snake",
+					"texture": 69,
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0
+					},
+					"footer": {
+						"stages": [],
+						"available": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					},
+					"id": 70
+				},
+				"id": 70
+			},
+			"71": {
+				"id": 71,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"name": "snake",
+					"brush": 70,
+					"type": "__enum__.Import.Entity.Type.SNAKE",
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"gridSizeX": 1,
+						"gridSizeY": 1,
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": true
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					},
+					"id": 71
+				}
+			},
+			"72": {
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"id": 72,
+					"name": "food",
+					"image": "56.png",
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 28,
+					"height": 28
+				},
+				"id": 72
+			},
+			"73": {
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"name": "food",
+					"texture": 72,
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0
+					},
+					"footer": {
+						"stages": [],
+						"available": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					},
+					"id": 73
+				},
+				"id": 73
+			},
+			"74": {
+				"id": 74,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"name": "food",
+					"brush": 73,
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"gridSizeX": 1,
+						"gridSizeY": 1,
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": true
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					},
+					"id": 74
+				}
+			},
+			"75": {
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"id": 75,
+					"name": "bush",
+					"image": "59.png",
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 28,
+					"height": 28
+				},
+				"id": 75
+			},
+			"76": {
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"name": "bush",
+					"texture": 75,
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0
+					},
+					"footer": {
+						"stages": [],
+						"available": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					},
+					"id": 76
+				},
+				"id": 76
+			},
+			"77": {
+				"id": 77,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"name": "bush",
+					"brush": 76,
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"body": {
+						"isSaved": true,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"gridSizeX": 1,
+						"gridSizeY": 1,
+						"depthIndex": 0,
+						"isVisible": true,
+						"isPaused": false,
+						"isPickable": true
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					},
+					"id": 77
+				}
+			},
+			"78": {
+				"id": 78,
+				"branch": 1,
+				"type": "Map",
+				"data": {
+					"id": 78,
+					"name": "1st",
+					"gridX": 5,
+					"gridY": 5,
+					"bgEntity": 68,
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Map",
+						"origin": ""
+					}
+				}
+			},
+			"80": {
+				"id": 80,
+				"branch": 1,
+				"type": "Deploy",
+				"data": {
+					"name": "standalone",
+					"branch": "1",
+					"full": 1,
+					"script": "",
+					"releasePath": "",
+					"useClosureCompiler": true,
+					"closureCompiler": {
+						"compilation_level": "SIMPLE_OPTIMIZATIONS",
+						"language_in": "ECMASCRIPT5_STRICT",
+						"compilerFlags": ""
+					},
+					"editor": {
+						"color": "#FFFFFF",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Deploy",
+						"origin": "",
+						"plugin": "Deploy"
+					},
+					"id": 80
+				}
+			},
+			"81": {
+				"id": 81,
+				"branch": 1,
+				"type": "Plugin",
+				"data": {
+					"id": 81,
+					"name": "Ctrl",
+					"disabled": false,
+					"useInEditor": false,
+					"editor": {
+						"group": "snake",
+						"type": "Plugin",
+						"origin": "guntisSnake17",
+						"branch": 1,
+						"color": "#FFFFFF",
+						"sort": 0,
+						"plugin": "Plugin"
+					}
+				}
+			},
+			"82": {
+				"data": {
+					"id": 82,
+					"name": "Server",
+					"disabled": false,
+					"useInEditor": true,
+					"port": 8081,
+					"offlineMode": false,
+					"path": "src/server",
+					"useSocket": true,
+					"editor": {
+						"group": "snake",
+						"type": "Plugin",
+						"origin": "snake",
+						"branch": 1
+					}
+				},
+				"id": 82,
+				"type": "Plugin",
+				"branch": 1
+			}
+		},
+		"sub": [],
+		"name": "root",
+		"parent": 0,
+		"id": 1
+	},
+	"__auto_inc": 83,
+	"__branch_id": 1
+}

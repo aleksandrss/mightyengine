@@ -1,0 +1,16 @@
+#!/bin/bash
+ffmpeg="avconv";
+$ffmpeg -version;
+if [ "$?" == "127" ]; then
+	ffmpeg="ffmpeg";
+	$ffmpeg -version;
+	if [ "$?" == "127" ]; then
+		ffmpeg="./bin/ffmpeg";
+		$ffmpeg -version;
+	fi
+fi
+$ffmpeg "$@";
+
+
+
+

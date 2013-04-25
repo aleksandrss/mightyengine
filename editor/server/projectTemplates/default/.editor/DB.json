@@ -1,0 +1,234 @@
+{
+	"1": {
+		"items": {
+			"1": {
+				"id": 1,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 1,
+					"name": "null",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "null.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 64,
+					"height": 64
+				}
+			},
+			"2": {
+				"id": 2,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 2,
+					"name": "null_iso",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "null_iso.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"plugin": "Resource"
+					},
+					"width": 90,
+					"height": 45
+				}
+			},
+			"3": {
+				"id": 3,
+				"branch": 1,
+				"type": "Texture",
+				"data": {
+					"id": 3,
+					"name": "error",
+					"type": "__enum__.Import.Resource.Type.TEXTURE",
+					"image": "62.png",
+					"p": "",
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Texture",
+						"origin": "",
+						"plugin": "Resource"
+					},
+					"width": 64,
+					"height": 64
+				}
+			},
+			
+			
+			"4": {
+				"id": 4,
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"id": 4,
+					"name": "null",
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"texture": "1",
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"available": [],
+						"stages": []
+					},
+					"body": {
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"layerIndex": 0,
+						"fillType": "__enum__.Import.Terrain.FillType.DEFAULT",
+						"isModifier": 0,
+						"isUpdatePreview": 0
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					}
+				}
+			},
+			"5": {
+				"id": 5,
+				"branch": 1,
+				"type": "Brush",
+				"data": {
+					"id": 5,
+					"name": "error",
+					"type": "__enum__.Import.Brush.Type.BASIC",
+					"texture": 3,
+					"head": {
+						"offsetX": 0,
+						"offsetY": 0,
+						"gridSizeX": 1,
+						"gridSizeY": 1
+					},
+					"footer": {
+						"stages": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Brush",
+						"origin": "",
+						"plugin": "Brush"
+					}
+				}
+			},
+			"6": {
+				"id": 6,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"id": 6,
+					"name": "null",
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"brush": 4,
+					"body": {
+						"isSaved": 1,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"depthIndex": 0,
+						"isVisible": 1,
+						"isPaused": 0,
+						"isPickable": 0
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					}
+				}
+			},
+
+			
+			"7": {
+				"id": 7,
+				"branch": 1,
+				"type": "Entity",
+				"data": {
+					"id": 7,
+					"name": "error",
+					"type": "__enum__.Import.Entity.Type.GEOMETRY",
+					"brush": 5,
+					"body": {
+						"isSaved": 1,
+						"type": "__enum__.Import.GameObject.UNKNOWN",
+						"depthIndex": 0,
+						"isVisible": 1,
+						"isPaused": 0,
+						"isPickable": 0
+					},
+					"footer": {
+						"available": [],
+						"component": []
+					},
+					"editor": {
+						"color": "#ffffff",
+						"group": "core",
+						"sort": 0,
+						"branch": 1,
+						"type": "Entity",
+						"origin": "",
+						"plugin": "Entity"
+					}
+				}
+			},
+			"8": {
+				"branch": 1,
+				"type": "Map",
+				"data": {
+					"name": "Empty",
+					"gridX": "32",
+					"gridY": "32",
+					"bgEntity": "6",
+					"editor": {
+						"color": "#ffffff",
+						"group": "ungrouped",
+						"sort": 0,
+						"branch": 1,
+						"type": "Map",
+						"origin": ""
+					},
+					"id": 8
+				},
+				"id": 8
+			}
+		},
+		"sub": [],
+		"name": "root",
+		"parent": 0,
+		"id": 1
+	},
+	"__auto_inc": 47,
+	"__branch_id": 1
+}

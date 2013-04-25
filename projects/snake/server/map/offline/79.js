@@ -1,0 +1,1 @@
+Map['level_79']  = {"action":"save","name":79,"isBinary":false,"terrain":{"sizeX":5,"sizeY":5,"basicBrushID":70,"data":[70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70]},"entity":{"data":[{"x":240,"y":393,"templateID":72},{"x":-60,"y":156,"templateID":75},{"x":60,"y":156,"templateID":78}]},"saveOffline":false,"id":79}

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
+cd "$DIR";
+
+#try to stop if running
+./stop > /dev/null
+
+(
+echo "starting";
+npm install;
+echo <<EOF
+EOF
+
+) | zenity --progress --pulsate --no-cancel --width 400 \
+--title="MightyEngine" --text="Checking node modules.. please wait!"  --auto-kill --auto-close > /dev/null
+
+cd "editor/server"
+node "./server.js";
+

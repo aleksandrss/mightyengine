@@ -1,0 +1,7 @@
+Define("Scene.Event", [
+	"LOADED", "CREATE_LEVEL", "LOAD_LEVEL", "LOAD_LEVEL_ID", "SAVE_LEVEL",
+	"FPS", "TIME_FRAME",
+	"GET_LEVEL",
+	"SET_PAUSE",
+	"PRE_SAVE", "POST_SAVE"
+]);

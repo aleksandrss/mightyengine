@@ -1,0 +1,1 @@
+DefineEntity({ SNAKE: 'Snake' });
